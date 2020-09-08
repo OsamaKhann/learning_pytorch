@@ -90,7 +90,6 @@ m1 = torch.rand((5,5)) # should same dim
 m1_e = m1.matrix_power(3)
 
 # Batch Matrix Multiplication
-
 batch = 32 
 n = 10
 m = 20
